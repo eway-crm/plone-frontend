@@ -26,7 +26,7 @@ RUN <<EOT
     yo @plone/volto \
         app \
         --description "Plone frontend using Volto" \
-        --skip-addons \
+        --addon "@plone-collective/volto-authomatic" \
         --skip-install \
         --skip-workspaces \
         --volto=${VOLTO_VERSION} \
