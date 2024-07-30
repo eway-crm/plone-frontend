@@ -16,17 +16,15 @@
 
 </div>
 
-Plone frontend [Docker](https://docker.com) images using Node.
+Plone frontend [Docker](https://docker.com) images using Node.  This is not the main `Volto` repository, but used to build our official images.
+
+To check and report issues and contribute to Volto, See [plone/volto](https://github.com/plone/volto).
 
 ## Supported tags and respective Dockerfile links
 
-- `16`, `16.20`, `16.20.8`, `latest` [(16.x/Dockerfile)](https://github.com/plone/plone-frontend/blob/16.x/Dockerfile)
+- `17`, `17.15`, `17.15.5`, `latest` [(17.x/Dockerfile)](https://github.com/plone/plone-frontend/blob/17.x/Dockerfile)
 
-### Nightly version
-
-Built from the main branch of [@plone/volto](https://github.com/plone/volto) every night.
-
-- `nightly` [(Dockerfile.nightly)](https://github.com/plone/plone-frontend/blob/15.x/Dockerfile.nightly)
+- `16`, `16.31`, `16.31.10` [(16.x/Dockerfile)](https://github.com/plone/plone-frontend/blob/16.x/Dockerfile)
 
 ### Older tags
 
